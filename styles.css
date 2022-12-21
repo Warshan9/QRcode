@@ -4,7 +4,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Outfit', sans-serif;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: 400, 700;
 }
 
@@ -18,7 +18,7 @@ h3 {
   margin: 0 auto 10px auto;
 }
 
-.QRcode {
+main {
   background-color: hsl(0, 0%, 100%);
   border: 15px solid hsl(0, 0%, 100%);
   border-radius: 10px;
@@ -31,4 +31,16 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+.sr-only {
+  display: none;
+}
+
+.attribution a {
+  color: hsl(228, 79%, 56%);
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: hsl(228, 74%, 42%);
 }
